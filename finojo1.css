@@ -1,0 +1,364 @@
+.lmbtn{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    background-color: orange;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+
+.mycontainer{
+    margin-top: 90px;
+}
+.navul{
+    width: 100%;
+}
+.atag{
+font-size: 22px;
+color: #000000;
+}
+.atag:hover{
+color: rgb(201, 111, 160);
+}
+
+#h2{
+width: 55%;
+}
+
+.img{
+height: 700px;
+width: 100%;
+}
+#p{
+
+padding-top: 25px;
+padding-left: 160px;
+}
+
+.c1{
+text-align: center;
+font-size: 20px;
+margin-bottom: 70px;
+}
+#h1{
+font-size: 40px;
+width: 50%;
+text-align: left;
+}
+.progressimg{
+width: 90%;
+height: 400px;
+}
+.c2{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.ourbtn{
+background-color: lightslategrey;
+color: #ffffff;
+text-align: right;  
+}
+.ourser{
+padding-top: 40px;
+}
+.subc1probtn{
+    text-align: right;
+}
+.ourpro{
+padding-top: 40px;
+font-size: 20px;
+text-align: left;
+}
+.ourpro1{
+    padding-top: 40px;
+    font-size: 20px;
+    padding-left: 100px;
+    text-align: left;
+}
+.subc2fpro{
+    text-align: left;
+}
+.subc2fprobtn{
+    text-align: right;
+    padding-right: var(--bs-gutter-x,.75rem);
+}
+#h3{
+color:lightslategrey ;
+}
+p{
+font-size: 17px;
+}
+
+.div2{
+height: 550px;
+overflow-y: scroll;
+}
+
+.mycontainer4{
+    padding: 0px;
+    margin: 0px;
+}
+
+.secnavbtn{
+font-weight: 400;
+color: #000000;
+
+}
+.secnavbtn:hover{
+color: #d87093;
+}
+.img1 {
+height: 400px;
+width: 350px;
+border-radius: 15px;
+}
+.foot{
+background-color:#000000;
+width: 100%;
+}
+.div4{
+background-color:#000000;
+margin: 100px 140px 20px 140px;
+padding-top: 10px;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+h3{
+text-decoration: none;
+}
+.contactdetails{
+margin-top: 20px;
+background-color:#000000;
+}
+a {
+color: #ffffff;
+text-decoration: none;
+font-size: 19px;
+padding-right: 35px;
+}
+
+.mycontainer2{
+    margin-top: 90px;
+    margin-bottom: 0px;
+    background-color:#008000;
+    width: 100%;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.hexadigi{
+    color: #ffffff;
+}
+.mycontainer1{
+    margin-top: 130px;
+    background-color:#000000;
+    width: 100%;
+}
+.footsubcol{
+    text-align: center;
+}
+.signup{
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 30px;
+}
+.contactdetails{
+    text-align: center;
+}
+#footerlogo{
+    margin-left: 15%;
+}
+.mobfoot{
+    display: none;
+}
+
+/*for mobile*/
+.drop{
+   width: 50%;
+}
+.coll{
+    text-align: right;
+}
+.opt{
+    border: none;
+}
+.mynav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.mynav2{
+    display: none;
+}
+.mobcontainer{
+    display: none;
+}
+
+@media (max-width : 500px){
+    body{
+        width: 100vw;
+        margin: 0px;
+    }
+    .mynav {
+       display: none;
+    }
+    .mynav2{
+        display:-webkit-inline-flex;
+        width: 100%;
+    }
+    .atag{
+        font-size: 18px;
+        color: #000000;
+    }
+    .atag:hover{
+        color: rgb(201, 111, 160);
+    }
+    a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 13px;
+        padding-right: 0px;
+    }
+    .dropdw{
+        margin-left: 20%;
+    }
+    .dropitem{
+       background-color: #ffffff;
+       border: none;
+       border-radius: 5px
+       
+    }
+    .dropitem:hover{
+        color: turquoise;
+        cursor: pointer;
+    }
+    #h2{
+        width: 30%;
+        font-size: 18px;
+        width: 80%;
+    }
+    #p{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    p{
+        font-size: 13px;
+    }
+    #b{
+        font-size: 13px; 
+    }
+    .lmbtn{
+        height: 25px;
+        width: 100px;
+        padding: 0px;
+    }
+    .mycontainer{
+        margin-top: 30px;
+        padding: 0px 5%;
+    }
+    .img{
+        height: 300px;
+        width: 100%;
+    }
+    .c1{
+        text-align: center;
+        font-size: 13px;
+    }
+    #h1{
+        font-size: 18px;
+        width: 50%;
+        text-align: left;
+    }
+    .subcolformob{
+        padding: 0px;
+    }
+    .mobbtn{
+        padding: 0px 5px;
+    }
+    .ourser{
+        padding-top: 0px;
+    }
+    .progressimg{
+        width: 100%;
+        height: 160px;
+    }
+    .c2{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #h3{
+        color:lightslategrey ;
+        font-size: 19px;
+    }
+    .mobourpro1{
+        padding: 0px;
+        font-size: 13px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .mobourpro2{
+        padding: 0px;
+        font-size: 13px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .subc2fprobtn{
+    text-align: right;
+    padding-right: 0px;
+    }
+    .img1 {
+        height: 350px;
+        width: 260px;
+        border-radius: 15px;
+    }
+    .signup{
+        width: 80%;
+        text-align: left;
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+    .deskfoot{
+        display: none;
+    }
+    .mobfoot{
+        display:block;
+    }
+    .deskcontainer{
+        display: none;
+    }
+    .mobcontainer{
+        display: block;
+    }
+    .ourpro,.ourpro1{
+        padding-top: 40px;
+        font-size: 13px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .contactdetails{
+        padding: 0px;
+        text-align: center;
+    }
+    .mobfooticon{
+        padding:0px 10px;
+    }
+}

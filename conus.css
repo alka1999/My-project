@@ -1,0 +1,24 @@
+.rightnav{
+    margin-left: 47%;
+}
+.atag{
+    margin-left: 68px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+
+.form{
+    width: 85%;
+    margin-top: 80px;
+    font-size: 17px;
+}
+
+.btn1{
+    border: 1px solid #000000;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
